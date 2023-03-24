@@ -2,6 +2,8 @@
 # Maintainer: Felix Yan <felixonmars@archlinux.org>
 # Contributor: Jan de Groot <jgc@archlinux.org>
 # Contributor: Andreas Radke <andyrtr@archlinux.org>
+# I suffered with that so that you don't have to.
+# And here it is! Fully working lib32 23.1 on LLVM14!
 
 
 pkgbase=lib32-mesa
@@ -19,9 +21,7 @@ makedepends=('python-mako' 'lib32-libxml2' 'lib32-expat' 'lib32-libx11' 'xorgpro
 url="https://www.mesa3d.org/"
 license=('custom')
 options=('!lto')
-source=(mesa::git+https://gitlab.freedesktop.org/mesa/mesa.git#branch=main
-        0001-anv-force-MEDIA_INTERFACE_DESCRIPTOR_LOAD-reemit-aft.patch
-        0002-iris-Retry-DRM_IOCTL_I915_GEM_EXECBUFFER2-on-ENOMEM.patch
+source=(mesa::git+https://github.com/HoloISO/mesa-holoiso-23_1.git#branch=main
         0004-anv-patch-shit.patch
         LICENSE)
 sha512sums=('506fc69ace128504fe45b7ca0b6b1d1d2a33837d74bff7ae7310fef5100b162136ca77ee6a50745a5bda270d0b8cb1ee99ecc19190eddd83cc78039bd02b1bb7'
