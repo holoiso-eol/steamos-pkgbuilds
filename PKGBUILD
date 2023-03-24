@@ -19,12 +19,9 @@ options=('!lto')
 source=(mesa::git+https://github.com/HoloISO/mesa-holoiso-23_1.git#branch=main
         0004-anv-patch-shit.patch
         LICENSE)
-sha512sums=('506fc69ace128504fe45b7ca0b6b1d1d2a33837d74bff7ae7310fef5100b162136ca77ee6a50745a5bda270d0b8cb1ee99ecc19190eddd83cc78039bd02b1bb7'
+sha512sums=('SKIP'
             'SKIP'
-            '44981f1f86b72eec0a358d1764546443a7e6734a074e1e15929dc4312fe660eab1a04b8a8359c5f57b6f5815cbe149677f5b3f0e3919112e78c6ec1f64a97b61'
-            'c181cc258a3a96817f9733be53e0ddf3f5b093ec8d7b731e37c095077c1b423d13ddb902993e1056aed29c4163421e4873b64f7593ef5e39d8cba11516651724'
-            '4f3ef686b2244c5da033596336bdffa42f9f55061be7125cba47a5ae3c16037523d1ba9d17269d141498b8ad2e020f25d9d778fdf307329809fc25d30d59c470'
-            'f9f0d0ccf166fe6cb684478b6f1e1ab1f2850431c06aa041738563eb1808a004e52cdec823c103c9e180f03ffc083e95974d291353f0220fe52ae6d4897fecc7')
+            'SKIP')
 validpgpkeys=('8703B6700E7EE06D7A39B8D6EDAE37B02CEB490D'  # Emil Velikov <emil.l.velikov@gmail.com>
               '946D09B5E4C9845E63075FF1D961C596A7203456'  # Andres Gomez <tanty@igalia.com>
               'E3E8F480C52ADD73B278EE78E1ECBE07D7D70895'  # Juan Antonio Suárez Romero (Igalia, S.L.) <jasuarez@igalia.com>
