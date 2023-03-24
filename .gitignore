@@ -1,0 +1,8 @@
+0002-iris-Retry-DRM_IOCTL_I915_GEM_EXECBUFFER2-on-ENOMEM.patch
+0003-Revert-iris-Avoid-abort-if-kernel-can-t-allocate-mem.patch
+0001-anv-force-MEDIA_INTERFACE_DESCRIPTOR_LOAD-reemit-aft.patch
+pkg/
+mesa/
+src/
+*.pkg.tar.zst
+.github/
