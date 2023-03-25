@@ -1,0 +1,11 @@
+.SRCINFO
+*.patch
+*.tar.gz
+*.zip
+mangohud/
+mangohud-minhook/
+pkg/
+mesa/
+src/
+*.pkg.tar.zst
+.github/
